@@ -8,7 +8,6 @@ public class problem1365 {
         int[] arr = {4, 1, 2, 5};
         int max = 0;
         int[] ans = new int[arr.length];
-
         for (int i = 0; i < arr.length; i++) {
             max = arr[i];
 
