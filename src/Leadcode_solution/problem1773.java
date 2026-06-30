@@ -52,27 +52,9 @@ int count =0;
             System.out.println(count);
 //
 
-//if(rootkey.equals("type")) {
-//
-//    for (int j = 0; j < row.size(); j++) {
-//        ele = row.get(0);
-//        if (ele.equals("phone")) {
-//            count++;
-//        }
-//    }
-//}
-//    if(rootkey.equals("colour")){
-//        for (int j = 0; j < row.size(); j++) {
-//            ele = row.get(j);
-//            if (ele.equals("silver")) {
-//                count++;
-//            }
-//        }
-//
-//            }
-//            System.out.println(ele);
-//            System.out.println(count);
-//
+
+        ele = row.get(j);
+
         }
 
 
