@@ -24,7 +24,7 @@ public class problem1389 {
 }
 
 
-https://leetcode.com/problems/create-target-array-in-the-given-order/solutions/8354390/1389-create-target-array-in-the-given-or-fluu
+//https://leetcode.com/problems/create-target-array-in-the-given-order/solutions/8354390/1389-create-target-array-in-the-given-or-fluu
 // # Intuition
 // To build the target array, each element from `nums` must be inserted at the position specified by `index`. If that position is already occupied, the existing elements need to be shifted one step to the right to make room for the new element.
 
