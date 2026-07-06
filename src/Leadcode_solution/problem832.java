@@ -37,3 +37,37 @@ public class problem832 {
         System.out.println(Arrays.deepToString(rev));
     }
 }
+
+// class Solution {
+//     public int[][] flipAndInvertImage(int[][] arr) {
+        
+      
+
+     
+      
+//         int [][] rev = new int[arr[0].length][arr[0].length];
+
+//         for (int i = 0; i < arr.length; i++) {
+          
+//             int z =0 ;
+
+//             for (int j = arr.length-1; j>=0; j--) {
+
+//             if(arr[i][j]==1){
+//                 rev[i][z]= 0;
+//             }
+//             else {
+//                 rev[i][z] = 1;
+//             }
+//             z++;
+
+//             }
+
+
+
+
+//         }
+//         return rev;
+
+//     }
+// }
