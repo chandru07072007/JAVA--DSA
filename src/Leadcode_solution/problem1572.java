@@ -37,3 +37,48 @@ public class problem1572 {
         }
 
     }
+
+// # Intuition
+
+// The matrix has two diagonals:
+
+// - **Primary diagonal:** Elements where `row == column`.
+// - **Secondary diagonal:** Elements where `row + column == n - 1`.
+
+// We can traverse the matrix once and add both diagonal elements in each iteration. If the matrix size is odd, the center element belongs to both diagonals, so we subtract it once to avoid counting it twice.
+
+// # Approach
+
+// 1. Store the matrix size `n`.
+// 2. Traverse from `0` to `n - 1`.
+// 3. Add the primary diagonal element `arr[i][i]`.
+// 4. Add the secondary diagonal element `arr[n - 1 - i][i]`.
+// 5. If `n` is odd, subtract the center element `arr[n / 2][n / 2]`.
+// 6. Return the final sum.
+
+// # Complexity
+
+// - **Time complexity:** `O(n)`
+// - **Space complexity:** `O(1)`
+
+// # Code
+
+// ```java
+// class Solution {
+//     public int diagonalSum(int[][] arr) {
+//         int length = arr.length;
+//         int ans = 0;
+
+//         for (int i = 0; i < length; i++) {
+//             ans += arr[i][i];
+//             ans += arr[length - 1 - i][i];
+//         }
+
+//         if (length % 2 != 0) {
+//             ans -= arr[length / 2][length / 2];
+//         }
+
+//         return ans;
+//     }
+// }
+// ```
