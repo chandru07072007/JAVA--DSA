@@ -26,7 +26,7 @@ public class problem1572 {
      int ans =0;
         for (int i = 0; i < arr.length; i++) {
             ans += arr[i][i];
-            ans += arr[length - 1-i][i];
+            ans += arr[i][length - 1-i];
 
         }
         if(length%2 != 0){
