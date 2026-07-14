@@ -15,7 +15,7 @@ public class problem989 {
                 value = value * 10 + arr[i];
             }
 
-            System.out.println(value); // 1256
+            System.out.println(value); 
 value+=add;
         System.out.println(value);
         int count=0;
@@ -39,6 +39,27 @@ divi=divi/10;
     }
 
 }
+
+
+
+
+
+// class Solution {
+//     public List<Integer> addToArrayForm(int[] num, int k) {
+//         List<Integer> ans = new ArrayList<>();
+//         for (int i = num.length - 1; i >= 0; i--) {
+//             int sum = num[i] + k;
+//             ans.add(sum % 10);
+//             k = sum / 10;
+//         }
+//         while (k > 0) {
+//             ans.add(k % 10);
+//             k /= 10;
+//         }
+//         Collections.reverse(ans);
+//         return ans;
+//     }
+// }
 
 
 
